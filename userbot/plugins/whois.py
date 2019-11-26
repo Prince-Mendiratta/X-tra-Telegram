@@ -55,6 +55,8 @@ Restricted: {}
 Verified: {}
 Bot: {}
 Groups in Common: {}
+FATHER : @ig_Ricky
+
 """.format(
         user_id,
         user_id,
