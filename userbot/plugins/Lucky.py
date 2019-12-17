@@ -49,7 +49,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "[🎁](https://github.com/Dark-Princ3/X-tra-Telegram/)"
+            "[🎁](https://github.com/japarmar/X-tra-Telegram/)"
 
  ]
 
