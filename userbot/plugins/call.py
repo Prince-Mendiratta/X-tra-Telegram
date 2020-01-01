@@ -38,7 +38,7 @@ async def _(event):
 
         animation_chars = [
         
-            "`Connecting To Telegram Headquarters...`",
+            "`Connecting To Tele Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
             "`Me: Yo this is` @Dark_Princ3 ,`Please Connect me to my lil bro,Pavel Durov`",
