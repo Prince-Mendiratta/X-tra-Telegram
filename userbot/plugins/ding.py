@@ -41,7 +41,7 @@ async def _(event):
             "⬜⬜⬛⬜⬜\n⬜⬜⬛⬜⬜\n⬜⬜🔴⬜⬜",
             "⬜⬜⬛⬜⬜\n⬜⬛⬜⬜⬜\n🔴⬜⬜⬜⬜",
             "🔴⬛⬛⬜⬜\n⬜⬜⬜⬜⬜\n⬜⬜⬜⬜⬜",
-            "⬜⬜⬜⬜⬜\n⬜ [BECOME A VIDHAYAK](https://github.com/Dark-Princ3/X-tra-Telegram/) ⬜\n⬜⬜⬜⬜⬜"
+            "⬜⬜⬜⬜⬜\n⬜ [BECOME A VIDHAYAK](https://github.com/japarmar/X-tra-Telegram/) ⬜\n⬜⬜⬜⬜⬜"
 
  ]
 
