@@ -10,7 +10,7 @@ PREV_REPLY_MESSAGE = {}
 
 
 USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me. Go tag me in @giveaways24hrsdiscuss for reply.. "
-USER_BOT_NO_WARN = “  _     _  ___ __ _  \n / \ |  \| ||_ _\ V // \ \n| o || o ) | | | \ /| o |\n|_n_||__/|_| |_| |_||_n_|`\n\nHello, this is Aditya's Security Service. If you spam you will be reported and blocked, so make sure you **DON'T SPAM**.\n\nYour companionship is always an opportunity But Sed This line is not for you.\n\n Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years🤨. `"
+USER_BOT_NO_WARN = “`  _     _  ___ __ _  \n / \ |  \| ||_ _\ V // \ \n| o || o ) | | | \ /| o |\n|_n_||__/|_| |_| |_||_n_|\n\nHello, this is Aditya's Security Service. If you spam you will be reported and blocked, so make sure you **DON'T SPAM**.\n\nYour companionship is always an opportunity But Sed This line is not for you.\n\n Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years🤨. `"
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
