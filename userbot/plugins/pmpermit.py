@@ -9,8 +9,11 @@ PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
 
-USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me.Else gaand mara dunga bsdk "
-USER_BOT_NO_WARN = "`[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀]\n\nHello, this is Aditya's Security Service. If you spam you will be reported and blocked, so make sure you **DON'T SPAM**.\n\nYour companionship is always an opportunity But Sed This line is not for you.\n\n Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years 😒.... `"
+USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me. Tag me in @giveaways_24hrs for instant reply. "
+USER_BOT_NO_WARN = "`[  _   __  _  _____ __ _  \n / \ |  \| ||_ _\ V // \ \n| o || o ) | | | \ /| o |\n|_n_||__/|_| |_| |_||_n_|\n]\n\nHello, this is Aditya's Security Service. If you spam you will be reported and blocked, so make sure you **DON'T SPAM**.\n\nYour companionship is always an opportunity But Sed This line is not for you.\n\n Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years 😒.... `"
+
+
+
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
