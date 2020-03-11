@@ -46,6 +46,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         if event.fwd_from:
             return
         replied_user = await event.client(GetFullUserRequest(event.chat_id))
+        reason = event.pattern_match.group(1)
         firstname = replied_user.user.first_name
         chat = await event.get_chat()
         if event.is_private:
