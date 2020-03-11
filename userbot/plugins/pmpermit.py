@@ -52,7 +52,6 @@ if Var.PRIVATE_GROUP_ID is not None:
                     pmpermit_sql.approve(chat.id, "outgoing")
                     bruh = "__Added user to approved pms cuz outgoing message >~<__"
                     await borg.send_message(event.chat_id, bruh)
-                        await event.delete()
 
 
     @command(pattern="^.block ?(.*)")
