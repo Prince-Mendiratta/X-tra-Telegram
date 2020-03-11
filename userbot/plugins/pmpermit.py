@@ -129,6 +129,10 @@ if Var.PRIVATE_GROUP_ID is not None:
 
             return
 
+
+        if chat_id == ["967883138", "742506768"]
+            return
+
         if sender.bot:
 
             # don't log bots
