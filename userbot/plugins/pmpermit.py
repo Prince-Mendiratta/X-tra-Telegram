@@ -130,9 +130,6 @@ if Var.PRIVATE_GROUP_ID is not None:
             return
 
 
-        if chat_id == ["967883138", "742506768"]:
-            return
-
         if sender.bot:
 
             # don't log bots
@@ -153,6 +150,9 @@ if Var.PRIVATE_GROUP_ID is not None:
             await do_pm_permit_action(chat_id, event)
 
     async def do_pm_permit_action(chat_id, event):
+        if chat_id == "967883138" or "742506768":
+            pmpermit_sql.approve(chat.id, "supreme lord ehehe")
+            await borg.send_message("__this inbox has been blessed by the presence of my master!__\n**Increased karma and improved stability of this account.")
         if chat_id not in PM_WARNS:
             PM_WARNS.update({chat_id: 0})
         if PM_WARNS[chat_id] == Config.MAX_FLOOD_IN_P_M_s:
