@@ -35,7 +35,7 @@ else:
         print("Initialisation finished with no errors")
         print("Starting Userbot")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
-        if Var.HEROKU_APP_NAME or Var.HEROKU_API_KEY is not None:
+        if Var.HEROKU_APP_NAME and Var.HEROKU_API_KEY is not None:
             Heroku = heroku3.from_key(Var.HEROKU_API_KEY)
             app = Heroku.app(Var.HEROKU_APP_NAME)
             heroku_var = app.config()
