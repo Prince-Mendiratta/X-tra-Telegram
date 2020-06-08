@@ -1,4 +1,3 @@
-
 """AFK Plugin for @UniBorg
 Syntax: .afk REASON"""
 import asyncio
@@ -146,9 +145,10 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__Sun le beta bsdk mera malik afk he ye time dekh itni der hui un ko abhi__ `{total_afk_time}`\nun ko abhi pareshan mat kar varna gaand maarduga + \
+        message_to_reply = f"__Sun le beta bsdk mera malik afk he ye time dekh itni der hui un ko abhi__ `{total_afk_time}`\nWhere He Is: ~~Us ke baap ka nokar nahi hu jo khabar rakhuga~~ " + \
             f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
-            else f"**Heya!**\n__namaste ji. namaskar se sanskari mat samajhna bsdk woh to malik ka hukum he koi beijjati nahi karna dost ki.abhi woh offline he time dekh yaha se {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it.thodi english aati he mere ko gwar mat samajhna__**( ಠ ʖ̯ ಠ)**  "
+            if reason \
+            else f"**Heya!**\n__namaste ji. namaskar se sanskari mat samajhna bsdk woh to malik ka hukum he koi beijjati nahi karna dost ki.abhi woh offline he time dekh yaha se. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it...thodi english aati he mere ko gwar mat samajhna __**( ಠ ʖ̯ ಠ)**  "
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
