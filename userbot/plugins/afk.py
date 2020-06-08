@@ -147,8 +147,7 @@ async def on_afk(event):
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = f"__Sun le beta bsdk mera malik afk he ye time dekh itni der hui un ko abhi__ `{total_afk_time}`\nun ko abhi pareshan mat kar varna gaand maarduga + \
-            f"\n\n__woh kab aayege pata nahi lekin reason likha he unhone padh le padhte to aata hoga tujhe nibbe__\n**REASON**: {reason}" \
-            if reason \
+            f"\n\n__I promise I'll back in a few light years__\n**REASON**: {reason}" \
             else f"**Heya!**\n__namaste ji. namaskar se sanskari mat samajhna bsdk woh to malik ka hukum he koi beijjati nahi karna dost ki.abhi woh offline he time dekh yaha se {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it.thodi english aati he mere ko gwar mat samajhna__**( ಠ ʖ̯ ಠ)**  "
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
