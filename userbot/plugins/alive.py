@@ -14,6 +14,6 @@ async def amireallyalive(alive):
     await alive.edit("`Currently Alive, my peru master!` **ψ(｀∇´)ψ**\n\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
                      # Don't change this else you a TikTok loser, Son of Jinping. Add your own.
-                     "`Bot created by:` [SnapDragon](tg://user?id=719877937), @anubisxx\n"
+                     "`Bot created by:` [CHANDAN](tg://user?id=609401102), @FLAMEPOSEIDON\n"
                      f"`My peru owner`: {DEFAULTUSER}\n\n"
                      "https://github.com/Dark-Princ3/X-tra-Telegram")
