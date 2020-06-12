@@ -13,7 +13,7 @@ PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No name set yet nibba, check pinned message in** @XtraTgBot"
 USER_BOT_WARN_ZERO = "`Bsdk kiya gand mar raha he pm ki bhut spam karli mere malak ke pm me  nikal ab yaha se tere mu me kela thus raha hu me samjha matlab block` **bhag bsdk me chala pornhub pe bp dekhne tere ko dekhna he to le ye link (www.pornhub.com),** "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=742506768)\n\n"
-                    "`Hello, this is X-tra-Telegram Security Service and me bot of my master my master name @AZ_OFFICIAL.You have found your way here to my master,`"
+                    "`Hello, this is Security Service and me (@AZOFFICIALbot) bot of my master my master name @AZ_OFFICIAL.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s` inbox.\n\n"
                     "Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.`\n\n"
                     "** Send** `/start` ** so that we can decide why you're here.**")
