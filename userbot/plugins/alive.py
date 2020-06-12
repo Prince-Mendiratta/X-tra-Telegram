@@ -13,6 +13,6 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit("`Are Abhi Apun Zinda hain Malik!` **ψ(｀∇´)ψ**\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\n"
-                     "`Bot created by:` [SnapDragon] @anubisxx\n"
+                     "`My Name:` @AZOFFICIALbot\n"
                      f"`My peru owner`: {DEFAULTUSER}\n"
                      
