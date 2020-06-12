@@ -15,9 +15,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars 
 USER_BOT_WARN_ZERO = "`Bsdk spam Q Kar raha he idhar🤬 Ye koi randi khana he.., Tere ko block kardiya lodu jo ukhadna he ukhadle..` "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=953414679)\n\n"
                     "`Hello, This Is` **😎AZ OFFICIAL😎 Security Service.**\n"
-                    "**Mujhe banaya he ek Pero ne, I Found Ur Way Through "
+                    "**Mujhe banaya he ek Pero ne😊, I Found Ur Way Through "
                     f"{DEFAULTUSER}'s inbox**.\n\n"
-                    "`🔶I Am :` **@Azofficilabot**\n\n"
+                    "`🧡My self :` **@Azofficilabot**\n\n"
                     "**Yaha pe spam karna mana he q ke ye koi randi khana nahi he **\n\n"
                     "** So Send `/start` To Start A Valid Conversation. **")
 
