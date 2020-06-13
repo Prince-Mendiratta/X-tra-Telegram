@@ -27,7 +27,7 @@ import importlib.util
 
 async def timer_blankx(e):
 
- txt=e.text[7:] + '\n\n**Realme VOOC 5.0 Wireless Charging Started...**\nDevice Detected: `Realme 3 PRO`\nBattery Percentage: '
+ txt=e.text[7:] + '\n\n**Asus X00td Wireless Charging Started...**\nDevice Detected: `Asus X00td`\nBattery Percentage: '
 
  j=21
 
@@ -43,6 +43,6 @@ async def timer_blankx(e):
 
  if e.pattern_match.group(1) == 'f':
 
-  await e.edit("**Realme VOOC 5.0 Wireless Charging Completed...**\nDevice Detected: `Realme 3 PRO`\nBattery Percentage: 100%",)
+  await e.edit("**Asus X00td Wireless Charging Completed...**\nDevice Detected: `Realme 3 PRO`\nBattery Percentage: 100%",)
 
 
