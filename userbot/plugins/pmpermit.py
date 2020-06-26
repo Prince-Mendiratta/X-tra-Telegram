@@ -12,12 +12,12 @@ CACHE = {}
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No name set yet nibba, check pinned message in** @XtraTgBot"
-USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` **Now GTFO, i'm playing minecraft** "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=742506768)\n\n"
-                    "`Hello, this is X-tra-Telegram Security Service.You have found your way here to my master,`"
-                    f"{DEFAULTUSER}'s` inbox.\n\n"
-                    "Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years.`\n\n"
-                    "** Send** `/start` ** so that we can decide why you're here.**")
+USER_BOT_WARN_ZERO = "`لقد ارسلت الكثير من الرسائل المزعجه الى سيدي :unamused:🤚🏻 ، من الأن فصاعداََ تم حظر مؤخرتك العرجاء من قبل برنامج الحمايه الخاص بي :new_moon_with_face::herb:.` **Now GTFO, i'm playing minecraft** "
+USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=)\n\n"
+                    "`مرحباََ ... انا مسؤل الأمان هنا :man:‍:computer:🦾 \n لقد وجَدت طريقك هنا الى سيدي,`"
+                    f"{DEFAULTUSER}`\n\n"
+                    "اترك أسمك ورقم هاتفك وعنوانك و 10 آلاف دولار ونأمل أن تحصل على رد في غضون سنتين ضوئيتين:full_moon_with_face::herb:.`\n\n"
+                    "** إرسل** `/start` ** حتى نتمكن من تحديد سبب وجودك هنا.**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
