@@ -11,9 +11,9 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No Name set yet.** [Check Gu
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("`Currently Alive, my saske master!` **ψ(｀∇´)ψ**\n\n"
+    await alive.edit("`Currently Alive, my saske master!` **(⌐■_■)**\n\n"
                      "`Telethon version: 6.9.0\nPython: 3.7.3\n`"
                      # Don't change this else you a TikTok loser, Son of Jinping. Add your own.
                      "`Bot created by:` [Dragon](tg://user?id=367810114), @SASKE_89\n"
                      f"`My peru owner`: {DEFAULTUSER}\n\n"
-                     "https://github.com/Dark-Princ3/X-tra-Telegram")
+                     "https://github.com/saskeuday/X-tra-Telegram/edit/patch-1")
