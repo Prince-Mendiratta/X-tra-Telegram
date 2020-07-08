@@ -120,6 +120,9 @@ if ENV:
         MONGO_URI = os.environ.get("MONGO_URI", None)
         #Lydia API
         LYDIA_API = os.environ.get("LYDIA_API",None)
+        #Channelwide Broadcast
+        BROADCASTING_CHANNELS = os.environ.get("BROADCASTING_CHANNELS",None)
+
 else:
     class Config(object):
         DB_URI = None
