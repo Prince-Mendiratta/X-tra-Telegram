@@ -145,8 +145,8 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"__سيدي ѕᴀѕᴋᴇ ʟ̤ɾʅ丂ɹɹɹȊɹɹɹ قد ذهب 🌝🌿 \nمنذ__ `{total_afk_time}`\nاين هو الان 😑؟: ~~وحده الله يعلم 🌝🌿 ~~ " + \
-            f"\n\n__أعدك بأنني سأعود بعد بضع سنوات ضوئية ☃️🔥__\n**رساله من سيدي**: {reason}" \
+        message_to_reply = f"__سيدتي 𝒉𝒐𝒏𝒆𝒚🍓 قد ذهبت 🌝🌿 \nمنذ__ `{total_afk_time}`\nاين هي الان 😑؟: ~~وحده الله يعلم 🌝🌿 ~~ " + \
+            f"\n\n__أعدك بأنني سأعود بعد بضع سنوات ضوئية ☃️🔥__\n**رساله من سيدتي**: {reason}" \
             if reason \
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
         msg = await event.reply(message_to_reply)
